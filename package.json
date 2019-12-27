@@ -1,10 +1,13 @@
 {
   "name": "mern-course",
   "version": "1.0.0",
-  "description": "",
+  "description": "MERN stack",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client-react",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/PetrovIlyuha/MERN-Link-Shortener/issues"
   },
-  "homepage": "https://github.com/PetrovIlyuha/MERN-Link-Shortener#readme"
+  "homepage": "https://github.com/PetrovIlyuha/MERN-Link-Shortener#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "concurrently": "^5.0.2",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "g": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "node-gyp": "^5.0.7"
+  },
+  "devDependencies": {}
 }

@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://Ilya:link1234@cluster0-lmlpu.azure.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "some salty secret"
+}
