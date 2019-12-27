@@ -1,0 +1,23 @@
+{
+  "name": "mern-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetrovIlyuha/MERN-Link-Shortener.git"
+  },
+  "keywords": [
+    "mern",
+    "link-compact"
+  ],
+  "author": "Ilya Petrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PetrovIlyuha/MERN-Link-Shortener/issues"
+  },
+  "homepage": "https://github.com/PetrovIlyuha/MERN-Link-Shortener#readme"
+}
