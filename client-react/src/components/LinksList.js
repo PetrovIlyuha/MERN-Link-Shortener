@@ -12,6 +12,7 @@ export default function LinksList({ links }) {
           <th>№</th>
           <th>Ogirinal Link</th>
           <th>Minified Link</th>
+          <th>Link analytics (clicks)</th>
           <th>Open Link</th>
         </tr>
       </thead>
@@ -22,6 +23,7 @@ export default function LinksList({ links }) {
               <td>{index + 1}</td>
               <td>{link.from}</td>
               <td>{link.to}</td>
+              <td>{link.clicks}</td>
               <td>
                 <Link to={`/details/${link._id}`}>Open Link</Link>
               </td>
